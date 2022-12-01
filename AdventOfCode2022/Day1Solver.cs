@@ -11,7 +11,7 @@ namespace AdventOfCode2022
         public void Day1()
         {
             slowLog("Reading data from website");
-            string data = File.ReadAllText(@"C:\Users\max_v\source\repos\AdventOfCode2022\AdventOfCode2022\Data\Day1Data.txt");
+            string data = File.ReadAllText(@"Data\Day1Data.txt");
 
             slowLog("Extracting data to array");
             string[] lineData = data.Split(
