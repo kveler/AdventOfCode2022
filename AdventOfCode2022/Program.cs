@@ -1,7 +1,6 @@
 ﻿Console.WriteLine("Hello, welcome to the Advent of Code 2022 solution program of Kveler\n\n");
 Console.Write("Select a day: ");
-string day = Console.ReadLine();
-switch (day)
+switch (Console.ReadLine())
 {
     case "1":
         Console.WriteLine("Work in progress");
