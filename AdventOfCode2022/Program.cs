@@ -13,6 +13,11 @@ internal class Program
                 Day1Solver day1 = new Day1Solver();
                 day1.Day1();
                 break;
+            case "2":
+                Console.Clear();
+                Day2Solver day2 = new Day2Solver();
+                day2.Day2();
+                break;
             default:
                 Console.WriteLine("That day has not been implemented yet, pick a different day");
                 break;
